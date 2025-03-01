@@ -1,26 +1,33 @@
-import { viteBundler } from '@vuepress/bundler-vite'
-import { defineUserConfig } from 'vuepress'
-import { plumeTheme } from 'vuepress-theme-plume'
+import { viteBundler } from '@vuepress/bundler-vite';
+import { defineUserConfig } from 'vuepress';
+import { plumeTheme } from 'vuepress-theme-plume';
 
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   locales: {
     '/': {
-      title: '一闪一闪亮晶晶',
+      title: '周正纬',
       lang: 'zh-CN',
-      description: '一闪一闪亮晶晶的生活志',
+      description: '周正纬',
     },
     '/en/': {
-      title: '一闪一闪亮晶晶',
+      title: "Zhengwei Zhou's Life Ambition",
       lang: 'en-US',
-      description: '一闪一闪亮晶晶的生活志',
+      description: "Zhengwei Zhou's Life Ambition",
     },
   },
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: 'https://resetsix.netlify.app/head/cat.webp',
+      },
+    ],
   ],
 
   bundler: viteBundler(),
@@ -28,7 +35,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://netfily.resetsix.cn',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -79,13 +86,13 @@ export default defineUserConfig({
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
-      // shiki: {
-      //   // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-      //   twoslash: true, // 启用 twoslash
-      //   whitespace: true, // 启用 空格/Tab 高亮
-      //   lineNumbers: true, // 启用行号
-      // },
+      shiki: {
+        // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+        languages: ['shell', 'bash', 'typescript', 'javascript'],
+        twoslash: true, // 启用 twoslash
+        whitespace: true, // 启用 空格/Tab 高亮
+        lineNumbers: true, // 启用行号
+      },
 
       /* 本地搜索, 默认启用 */
       // search: true,
@@ -119,42 +126,43 @@ export default defineUserConfig({
        *  markdown power
        * @see https://theme-plume.vuejs.press/config/plugin/markdown-power/
        */
-      // markdownPower: {
-      //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
-      //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
-      //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
-      //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
-      //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
-      //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
-      //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
-      //   icons: true,        // 启用内置图标语法  :[icon-name]:
-      //   codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
-      //   replit: true,       // 启用嵌入 replit 语法 @[replit](user/repl-name)
-      //   codeSandbox: true,  // 启用嵌入 codeSandbox 语法 @[codeSandbox](id)
-      //   jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
-      //   npmTo: true,        // 启用 npm-to 容器  ::: npm-to
-      //   demo: true,         // 启用 demo 容器  ::: demo
-      //   repl: {             // 启用 代码演示容器
-      //     go: true,         // ::: go-repl
-      //     rust: true,       // ::: rust-repl
-      //     kotlin: true,     // ::: kotlin-repl
-      //   },
-      //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
-      // },
+      markdownPower: {
+        pdf: true, // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
+        caniuse: true, // 启用 caniuse 语法  @[caniuse](feature_name)
+        plot: true, // 启用隐秘文本语法 !!xxxx!!
+        bilibili: true, // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
+        youtube: true, // 启用嵌入 youtube视频 语法 @[youtube](video_id)
+        // artPlayer: true, // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
+        audioReader: true, // 启用嵌入音频朗读功能 语法 @[audioReader](url)
+        icons: true, // 启用内置图标语法  :[icon-name]:
+        codepen: true, // 启用嵌入 codepen 语法 @[codepen](user/slash)
+        replit: true, // 启用嵌入 replit 语法 @[replit](user/repl-name)
+        codeSandbox: true, // 启用嵌入 codeSandbox 语法 @[codeSandbox](id)
+        jsfiddle: true, // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
+        npmTo: true, // 启用 npm-to 容器  ::: npm-to
+        demo: true, // 启用 demo 容器  ::: demo
+        repl: {
+          // 启用 代码演示容器
+          go: true, // ::: go-repl
+          rust: true, // ::: rust-repl
+          kotlin: true, // ::: kotlin-repl
+        },
+        imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
+      },
 
       /**
        * 在 Markdown 文件中导入其他 markdown 文件内容。
        * @see https://theme-plume.vuejs.press/guide/markdown/include/
        */
-      // markdownInclude: true,
+      markdownInclude: true,
 
       /**
        * Markdown 数学公式
        * @see https://theme-plume.vuejs.press/config/plugins/markdown-math/
        */
-      // markdownMath: {
-      //   type: 'katex',
-      // },
+      markdownMath: {
+        type: 'katex',
+      },
 
       /**
        * 水印
@@ -166,17 +174,18 @@ export default defineUserConfig({
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
-      // comment: {
-      //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-      //   comment: true,
-      //   repo: '',
-      //   repoId: '',
-      //   category: '',
-      //   categoryId: '',
-      //   mapping: 'pathname',
-      //   reactionsEnabled: true,
-      //   inputPosition: 'top',
-      // },
+      comment: {
+        provider: 'Twikoo', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+        comment: true,
+        envId: 'https://netfily.resetsix.cn/.netlify/functions/twikoo',
+        // repo: '',
+        // repoId: '',
+        // category: '',
+        // categoryId: '',
+        // mapping: 'pathname',
+        // reactionsEnabled: true,
+        // inputPosition: 'top',
+      },
     },
 
     /**
@@ -185,4 +194,4 @@ export default defineUserConfig({
      */
     // encrypt: {},
   }),
-})
+});
