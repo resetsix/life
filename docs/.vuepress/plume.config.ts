@@ -33,7 +33,7 @@ export default defineThemeConfig({
   footer: {
     message:
       // 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-      `© ${new Date().getFullYear()} zzw · Made with ❤️`,
+      `© ${new Date().getFullYear()} ZZW · Made with ❤️`,
     copyright: '',
   },
 

@@ -9,7 +9,7 @@ config:
     hero:
       name: 周正纬
       # tagline: Software Development Engineer
-      text: 不如一起看花开
+      text: 永远相信美好的事情即将发生。
       actions:
         -
           theme: brand
