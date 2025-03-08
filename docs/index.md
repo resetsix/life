@@ -8,6 +8,7 @@ config:
   -
     type: banner
     banner: /images/home/banner_bg.jpg
+    # banner: /images/home/banner_bg.webp
     full: true
     # bannerMask:
     #   light: 0.1

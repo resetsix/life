@@ -5,6 +5,7 @@ export const zhNavbar = defineNavbarConfig([
   { text: '博客', link: '/blog/' },
   { text: '目录', link: '/blog/archives/' },
   { text: '标签', link: '/blog/tags/' },
+  { text: '关于', link: '/about/' },
   {
     text: '更多',
     items: [{ text: 'iOS开发', link: '/notes/ios/index.md' }],
