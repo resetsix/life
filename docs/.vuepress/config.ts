@@ -25,7 +25,7 @@ export default defineUserConfig({
       {
         rel: 'icon',
         type: 'image/png',
-        href: 'https://resetsix.netlify.app/head/cat.webp',
+        href: '/images/head/cat.webp', // https://resetsix.netlify.app/head/cat.webp
       },
     ],
   ],
