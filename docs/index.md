@@ -15,7 +15,7 @@ config:
     hero:
       name: 周正纬
       tagline: Software Development Engineer
-      text: 永远相信美好的事情即将发生🍭。
+      text: 难免独自走过悲喜，即便沉默，也要大声朗读情书🍭。
       actions:
         -
           theme: brand

@@ -2,6 +2,8 @@
 title: 致 · 我最好的朋友董锦
 createTime: 2025/03/01 23:36:08
 permalink: /article/cc4cskyf/
+tags:
+  - 社交
 ---
 
 ## 前言
