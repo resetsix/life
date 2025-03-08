@@ -1,4 +1,4 @@
-import { defineNavbarConfig } from 'vuepress-theme-plume'
+import { defineNavbarConfig } from 'vuepress-theme-plume';
 
 export const zhNavbar = defineNavbarConfig([
   { text: '首页', link: '/' },
@@ -7,9 +7,9 @@ export const zhNavbar = defineNavbarConfig([
   { text: '归档', link: '/blog/archives/' },
   {
     text: '笔记',
-    items: [{ text: '示例', link: '/notes/demo/README.md' }]
+    items: [{ text: 'iOS开发', link: '/notes/ios/index.md' }],
   },
-])
+]);
 
 export const enNavbar = defineNavbarConfig([
   { text: 'Home', link: '/en/' },
@@ -18,7 +18,6 @@ export const enNavbar = defineNavbarConfig([
   { text: 'Archives', link: '/en/blog/archives/' },
   {
     text: 'Notes',
-    items: [{ text: 'Demo', link: '/en/notes/demo/README.md' }]
+    items: [{ text: 'iOS', link: '/en/notes/ios/index.md' }],
   },
-])
-
+]);
