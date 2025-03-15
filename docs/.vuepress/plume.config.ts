@@ -6,7 +6,8 @@ import { enNotes, zhNotes } from './notes';
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://resetsix.netlify.app/head/cat.webp',
+  logo: '/images/head/avatar.png',
+  // logo: 'https://resetsix.netlify.app/head/avatar.png',
 
   appearance: true, // 配置 深色模式
 
@@ -77,9 +78,9 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
       profile: {
-        avatar: 'https://resetsix.netlify.app/head/cat.webp',
+        avatar: '/images/head/avatar.png',
         name: '一闪一闪亮晶晶',
-        description: '生活志 / 技术记录 / 数字花园',
+        description: '生活向 / 技术记录 / 数字花园',
         circle: true,
         location: 'Chengdu, China',
         // organization: '2',
@@ -104,9 +105,9 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
       profile: {
-        avatar: 'https://resetsix.netlify.app/head/cat.webp',
+        avatar: '/images/head/avatar.png',
         name: '一闪一闪亮晶晶',
-        description: '一闪一闪亮晶晶的生活志',
+        description: '一闪一闪亮晶晶的生活向',
         // circle: true,
         // location: '',
         // organization: '',

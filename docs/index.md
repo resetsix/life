@@ -1,5 +1,5 @@
 ---
-title: 生活志
+title: 生活向
 createTime: 2025/02/23 22:29:27
 pageLayout: home
 externalLinkIcon: false

@@ -2,7 +2,7 @@
   "name": "resetsix-life",
   "type": "module",
   "version": "1.0.0",
-  "description": "一闪一闪亮晶晶的生活志",
+  "description": "一闪一闪亮晶晶的生活向",
   "packageManager": "pnpm@9.12.3",
   "author": "一闪一闪亮晶晶 <resetsix223@gmail.com>",
   "license": "MIT",
@@ -26,5 +26,8 @@
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.20",
     "vuepress-theme-plume": "1.0.0-rc.135"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.316"
   }
 }
