@@ -72,6 +72,7 @@ createTime: 2025/03/08 03:34:53
 
 - 本站使用 [VuePress](https://vuepress.vuejs.org/zh/) 框架和 [Plume](https://theme-plume.vuejs.press/guide/intro/) 主题创建，代码托管于 [GitHub](https://github.com/resetsix)，站点部署于 [Netlify](https://app.netlify.com/)。
 - 评论系统使用 [Twikoo](https://twikoo.js.org/) 创建、部署于 [Netlify](https://app.netlify.com/)，数据存储于 [LeanCloud](https://www.leancloud.cn/)。
+- 站点状态：[uptime-kuma](https://resetsix-uptime-kuma.hf.space/status/web)
 
 ## 更新日志
 
