@@ -6,7 +6,7 @@ createTime: 2025/03/08 03:34:53
 <!-- <Avatar src="/images/home/2.jpg" alt="mountain" /> -->
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/home/2.jpg" alt="mountain" />
+    <img src="/images/about/me.jpg" alt="mountain" />
     <span style="margin-top: 4px; font-size: 12px; color: #666;">2023/08/14 我的家乡</span>
 </div>
 
@@ -32,37 +32,37 @@ createTime: 2025/03/08 03:34:53
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
 
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/macbook.webp" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
+    <img src="/images/about/macbook.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
     <span style="margin-top: 8px; font-size: 12px; color: #666;">MacBook Pro 16" 2021</span>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/xiaomi15.webp" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
+    <img src="/images/about/xiaomi15.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
     <span style="margin-top: 8px; font-size: 12px; color: #666;">Xiaomi 15</span>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/mouse.webp" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
+    <img src="/images/about/mouse.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
     <span style="margin-top: 8px; font-size: 12px; color: #666;">Logi MX Master 3s For Mac</span>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/lamp02.webp" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
+    <img src="/images/about/lamp02.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
     <span style="margin-top: 8px; font-size: 12px; color: #666;">米家台灯2</span>
   </div>
 
    <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/thinkboook.webp" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
+    <img src="/images/about/thinkboook.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
     <span style="margin-top: 8px; font-size: 12px; color: #666;">Think Book 14</span>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/redmik40.webp" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
+    <img src="/images/about/redmik40.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
     <span style="margin-top: 8px; font-size: 12px; color: #666;">Redmi K40</span>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/honorx10.webp" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
+    <img src="/images/about/honorx10.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
     <span style="margin-top: 8px; font-size: 12px; color: #666;">Honor X10</span>
   </div>
 </div>
