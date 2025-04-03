@@ -5,10 +5,7 @@ createTime: 2025/03/08 03:34:53
 
 <!-- <Avatar src="/images/home/2.jpg" alt="mountain" /> -->
 
-<div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/me.webp" alt="my_hometown" />
-    <span style="margin-top: 4px; font-size: 12px; color: #666;">2023/08/14 我的家乡</span>
-</div>
+<Image src="/images/about/me.jpg" title="2023/08/14 我的家乡" />
 
 <!-- 读 /rēˈset-siks/ 或 /riːˈsɛt-sɪks/ -->
 我叫周正纬（zhōu zhèng wěi），`Resetsix`是我常用的英文名。<Plot>来自十八线城市，目前在天府成都</Plot>
@@ -31,40 +28,19 @@ createTime: 2025/03/08 03:34:53
 <summary>点击展开</summary>
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
 
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/macbook.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
-    <span style="margin-top: 8px; font-size: 12px; color: #666;">MacBook Pro 16" 2021</span>
-  </div>
+  <Image src="/images/about/macbook.jpg" title="MacBook Pro 16&quot; 2021" />
 
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/xiaomi15.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
-    <span style="margin-top: 8px; font-size: 12px; color: #666;">Xiaomi 15</span>
-  </div>
+  <Image src="/images/about/xiaomi15.jpg" title="Xiaomi 15" />
 
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/mouse.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
-    <span style="margin-top: 8px; font-size: 12px; color: #666;">Logi MX Master 3s For Mac</span>
-  </div>
+  <Image src="/images/about/mouse.jpg" title="Logi MX Master 3s For Mac" />
 
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/lamp02.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
-    <span style="margin-top: 8px; font-size: 12px; color: #666;">米家台灯2</span>
-  </div>
+  <Image src="/images/about/lamp02.jpg" title="米家台灯2" />
 
-   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/thinkboook.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
-    <span style="margin-top: 8px; font-size: 12px; color: #666;">Think Book 14</span>
-  </div>
+  <Image src="/images/about/thinkboook.jpg" title="Think Book 14" />
 
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/redmik40.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
-    <span style="margin-top: 8px; font-size: 12px; color: #666;">Redmi K40</span>
-  </div>
+  <Image src="/images/about/redmik40.jpg" title="Redmi K40" />
 
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/honorx10.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover;" />
-    <span style="margin-top: 8px; font-size: 12px; color: #666;">Honor X10</span>
-  </div>
+  <Image src="/images/about/honorx10.jpg" title="Honor X10" />
 </div>
 </details>
 
