@@ -6,7 +6,7 @@ createTime: 2025/03/08 03:34:53
 <!-- <Avatar src="/images/home/2.jpg" alt="mountain" /> -->
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/images/about/me.jpg" alt="mountain" />
+    <img src="/images/about/me.webp" alt="my_hometown" />
     <span style="margin-top: 4px; font-size: 12px; color: #666;">2023/08/14 我的家乡</span>
 </div>
 

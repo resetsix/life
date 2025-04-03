@@ -18,17 +18,17 @@ export default defineUserConfig({
     },
   },
 
-  head: [
-    // 配置站点图标
-    [
-      'link',
-      {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/images/head/avatar.png', // https://resetsix.netlify.app/head/avatar.png
-      },
-    ],
-  ],
+  // head: [
+  //   // 配置站点图标
+  //   [
+  //     'link',
+  //     {
+  //       rel: 'icon',
+  //       type: 'image/png',
+  //       href: '/images/head/avatar.png', // https://resetsix.netlify.app/head/avatar.png
+  //     },
+  //   ],
+  // ],
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
