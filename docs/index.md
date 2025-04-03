@@ -7,8 +7,7 @@ externalLinkIcon: false
 config:
   -
     type: banner
-    banner: /images/home/bg.webp
-    # banner: /images/home/bg.webp
+    banner: /images/home/bg.jpg
     full: true
     # bannerMask:
     #   light: 0.1
