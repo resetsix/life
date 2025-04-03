@@ -103,7 +103,7 @@ npm i -g pnpm
 > 变量值：`E:/.pnpm-store`
 >
 
-![](https://cdn.nlark.com/yuque/0/2023/png/25907639/1695616001961-c5559118-53c7-461f-9a4f-055de2ba195d.png)
+![](/images/nodejs/2025-03-15-01.png)
 
 **在系统变量的**`Path`**变量新建环境变量。内容是：**`%PNPM_HOME%`**；与刚才新建的变量名一致。**
 
@@ -119,7 +119,7 @@ pnpm config set global-dir "E:\.pnpm-store\global"
 > `pnpm c list`命令可以查看配置 。
 >
 
-![](https://cdn.nlark.com/yuque/0/2023/png/25907639/1695616254148-7da413e1-42da-4504-a704-095f85987320.png)
+![](/images/nodejs/2025-03-15-02.png)
 
 ## npm 镜像站
 [npmmirror](https://npmmirror.com/)
