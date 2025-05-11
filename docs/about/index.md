@@ -82,10 +82,10 @@ createTime: 2025/03/08 03:34:53
 
 ## 联系方式
 
-- :[mdi:github 36px]: [resetsix](https://github.com/resetsix)
-- :[skill-icons:gmail-dark 36px]: [resetsix223@gmail.com](mailto:resetsix223@gmail.com)
-- :[ri:bilibili-fill 36px/#00A0D8]: [乘风破浪的猫儿](https://space.bilibili.com/1542057315)
-- :[mingcute:qq-fill 36px/#00A0D8]: [链接](https://qm.qq.com/q/Aunc2Pi4GA)
+- ::mdi:github =36px:: [resetsix](https://github.com/resetsix)
+- ::skill-icons:gmail-dark =36px:: [resetsix223@gmail.com](mailto:resetsix223@gmail.com)
+- ::ri:bilibili-fill =36px /#00A0D8:: [乘风破浪的猫儿](https://space.bilibili.com/1542057315)
+- ::mingcute:qq-fill =36px /#00A0D8:: [链接](https://qm.qq.com/q/Aunc2Pi4GA)
 
 *[高墙]: GFW(Great Firewall)是一个建立在中国大陆与国际互联网之间的网络审查和过滤系统，就像一道虚拟的"防火墙"，它通过各种技术手段来过滤和控制进出中国大陆的网络流量，同时也会阻断对某些境外网站和服务的访问。这个系统从90年代开始建设，是中国网络管理政策的重要组成部分，它的存在使得墙内用户在访问某些国外网站时需要使用特殊工具，而且会对跨境数据传输、学术研究、国际商务等活动造成一定影响，这些内容仅是客观描述，不代表任何立场或观点。已被封锁的网站有Google、X、Youtube等具体参考 <a target="_blank" href="https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%A2%AB%E5%B0%81%E9%94%81%E7%BD%91%E7%AB%99%E5%88%97%E8%A1%A8">中华人民共和国被封锁网站列表 -- 维基百科</a>
 
