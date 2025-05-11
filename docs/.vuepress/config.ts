@@ -37,6 +37,10 @@ export default defineUserConfig({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     hostname: 'https://netfily.resetsix.cn',
 
+    markdown: {
+      chat: true,
+    },
+
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
     // docsDir: 'docs',
@@ -88,16 +92,18 @@ export default defineUserConfig({
        */
       shiki: {
         // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-        languages: [
-          'shell',
-          'bash',
-          'typescript',
-          'javascript',
-          'swift',
-          'html',
-          'css',
-          'json',
-        ],
+        // 从 1.0.0-rc.136 版本开始, languages 配置变更为 langs 选项。无需再手动添加你所使用的语言，插件将会自动识别并按需加载语言包。
+        // https://theme-plume.vuejs.press/guide/code/intro/#%E6%A6%82%E8%BF%B0
+        // langs: [
+        //   'shell',
+        //   'bash',
+        //   'typescript',
+        //   'javascript',
+        //   'swift',
+        //   'html',
+        //   'css',
+        //   'json',
+        // ],
         twoslash: true, // 启用 twoslash
         // whitespace: true, // 启用 空格/Tab 高亮
         lineNumbers: true, // 启用行号
