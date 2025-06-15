@@ -1,0 +1,104 @@
+# Twinkle Twinkle Little Star - Personal Blog
+
+Welcome to my digital garden! This is the author's personal blog, a cozy corner for documenting life, sharing technology, and exploring the world.
+
+## About This Blog
+
+This blog is named "Twinkle Twinkle Little Star," symbolizing those shining moments in life that deserve to be captured and remembered. The author believes that everyone's life has sparkling points worth recording and sharing, whether they are technical breakthroughs, life insights, or daily moments of joy.
+
+**Blog Positioning:**
+- 🌱 **Digital Garden**: Recording growth trajectories and nurturing seeds of thought
+- 💻 **Tech Sharing**: Frontend development and iOS development experiences and insights
+- 🌟 **Life-oriented**: Daily reflections, life thoughts, and warm moments
+- 📚 **Learning Notes**: Records and summaries of continuous learning
+
+## About the Author
+
+The author is a software development engineer with expertise in frontend and iOS development.
+
+**Personal Tags:**
+- Lifelong learner | Helpful | Responsive | Tech enthusiast
+
+**Tech Stack:**
+- Frontend Development: React, TypeScript, Vue.js
+- Mobile Development: Swift, iOS native development
+- Toolchain: VuePress, Plume theme, Netlify deployment
+
+**Values:**
+- Always reflecting on personal values through others' behaviors and choices
+- Always believing that good things are about to happen
+- Inevitably walking through joys and sorrows alone, yet reading love letters aloud even in silence 🍭
+
+## Blog Features
+
+### 🎯 Diverse Content
+- **Technical Articles**: In-depth yet accessible development experience sharing
+- **Life Records**: Authentic and warm daily life moments
+- **Learning Notes**: Reflections and summaries from continuous learning
+- **Tool Recommendations**: Software and methods for improving efficiency
+
+### 🛠 Technical Architecture
+- Built with [VuePress](https://vuepress.vuejs.org/) framework
+- Designed with [Plume](https://theme-plume.vuejs.press/) theme
+- Code hosted on [GitHub](https://github.com/)
+- Deployed on [Netlify](https://app.netlify.com/) platform
+- Comment system based on [Twikoo](https://twikoo.js.org/)
+
+### 📱 User Experience
+- Responsive design supporting multi-device access
+- Dark mode toggle for eye protection
+- Fast search functionality for easy content discovery
+- Tag classification system for convenient content archiving
+
+## Content Categories
+
+### 💻 Tech Sharing
+- **Frontend Development**: React, Vue.js, TypeScript practical experience
+- **iOS Development**: Swift, SwiftUI development insights
+- **Tool Usage**: Development tool configuration and usage tips
+- **Problem Solving**: Issues encountered during development and their solutions
+
+### 🌟 Life-oriented
+- **Daily Reflections**: Thoughts and feelings from daily life
+- **Warm Moments**: Beautiful interactions between people
+- **Growth Records**: Bits and pieces along the personal growth journey
+- **Random Thoughts**: Spontaneous life insights and musings
+
+### 📚 Learning Notes
+- **Technical Learning**: Learning processes and insights for new technologies
+- **Reading Notes**: Book recommendations and reading reflections
+- **Course Summaries**: Records from online course learning
+- **Experience Summaries**: Distillation and sharing of project experiences
+
+### 🔧 Quick Tutorials
+- **Getting Started**: Quick start guides for various tools
+- **Configuration Optimization**: Development environment configuration and optimization
+- **Problem Fixes**: Solutions to common problems
+- **Efficiency Improvement**: Tips for improving work efficiency
+
+## Contact Information
+
+If you'd like to connect and exchange ideas, you can reach out through:
+
+- **GitHub**: Available through the blog's repository
+- **Email**: Contact information available on the blog
+- **Social Media**: Various platforms linked on the blog
+
+## Blog Philosophy
+
+The author believes in the power of sharing. Every article is a record of real experiences, and every technical solution has been personally verified. Through this blog, the author hopes to:
+
+- **Document Growth**: Record learning and growth trajectories
+- **Share Experience**: Share useful experiences with those who need them
+- **Connect with Others**: Connect with like-minded friends through content
+- **Spread Warmth**: Convey some warmth in this fast-paced world
+
+## Copyright Notice
+
+All content on this site is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
+
+All content is personally written by the author without using any artificial intelligence generation technology, ensuring the originality and authenticity of the content.
+
+---
+
+Thank you for visiting! Hope you can find useful content here, and welcome to exchange and share your thoughts and experiences. Let's plant beautiful seeds together in this digital garden and wait for them to take root and sprout. ✨

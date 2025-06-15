@@ -5,11 +5,18 @@ export const zhNavbar = defineNavbarConfig([
   { text: '博客', icon: 'twemoji:memo', link: '/blog/' },
   { text: '目录', icon: 'flat-color-icons:folder', link: '/blog/archives/' },
   { text: '标签', icon: 'icon-park:tag-one', link: '/blog/tags/' },
-  { text: '关于', icon: 'fluent-emoji:love-you-gesture', link: '/about/' },
+  { text: 'Zustand', icon: 'mdi:state-machine', link: '/zustand/' },
+  // { text: 'iOS', icon: 'logos:apple', link: '/ios/' },
+  // { text: '关于', icon: 'fluent-emoji:love-you-gesture', link: '/about/' },
   {
     text: '更多',
     icon: 'icon-park:more-two',
     items: [
+      {
+        text: '关于我',
+        icon: 'fluent-emoji:love-you-gesture',
+        link: '/about/',
+      },
       {
         text: '友情链接',
         icon: 'noto:people-wrestling',
