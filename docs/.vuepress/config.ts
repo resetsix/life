@@ -43,7 +43,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://netfily.resetsix.cn',
+    hostname: 'https://resetsix.netlify.app',
 
     markdown: {
       chat: true,
