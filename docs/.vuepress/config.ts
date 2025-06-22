@@ -18,17 +18,25 @@ export default defineUserConfig({
     },
   },
 
-  // head: [
-  //   // 配置站点图标
-  //   [
-  //     'link',
-  //     {
-  //       rel: 'icon',
-  //       type: 'image/png',
-  //       href: '/images/head/avatar.png', // https://resetsix.netlify.app/head/avatar.png
-  //     },
-  //   ],
-  // ],
+  head: [
+    // 配置站点图标
+    // [
+    //   'link',
+    //   {
+    //     rel: 'icon',
+    //     type: 'image/png',
+    //     href: '/images/head/avatar.png', // https://resetsix.netlify.app/head/avatar.png
+    //   },
+    // ],
+    // Google Search Console 验证
+    [
+      'meta',
+      {
+        name: 'google-site-verification',
+        content: '97xDmDkaVoU791xLjVbsbfZAqovoSpEzH9nId2i9r3U',
+      },
+    ],
+  ],
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
