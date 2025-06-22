@@ -201,7 +201,7 @@ export default defineUserConfig({
       comment: {
         provider: 'Twikoo', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
         comment: true,
-        envId: 'https://netfily.resetsix.cn/.netlify/functions/twikoo',
+        envId: 'https://prismatic-khapse-f13765.netlify.app/.netlify/functions/twikoo', // 默认域名。 https://netfily.resetsix.cn/.netlify/functions/twikoo 是自定义域名版本，域名有可能会过期
         // repo: '',
         // repoId: '',
         // category: '',
