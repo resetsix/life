@@ -1,7 +1,6 @@
 import { defineClientConfig } from 'vuepress/client';
 import Avatar from './components/Avatar.vue';
 import Image from './components/Image.vue';
-import Timeline from './components/Timeline.vue';
 
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
@@ -24,6 +23,5 @@ export default defineClientConfig({
     // app.component('CustomComponent', CustomComponent)
     app.component('Avatar', Avatar);
     app.component('Image', Image);
-    app.component('Timeline', Timeline);
   },
 });

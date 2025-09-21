@@ -11,11 +11,11 @@ export default defineUserConfig({
       lang: 'zh-CN',
       description: '周正纬',
     },
-    '/en/': {
-      title: "Zhengwei Zhou's Life Ambition",
-      lang: 'en-US',
-      description: "Zhengwei Zhou's Life Ambition",
-    },
+    // '/en/': {
+    //   title: "Zhengwei Zhou's Life Ambition",
+    //   lang: 'en-US',
+    //   description: "Zhengwei Zhou's Life Ambition",
+    // },
   },
 
   head: [

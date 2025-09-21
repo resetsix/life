@@ -80,7 +80,7 @@ export default defineThemeConfig({
       profile: {
         avatar: '/images/head/avatar.png',
         name: '一闪一闪亮晶晶',
-        description: '生活向 / 技术记录 / 数字花园',
+        description: '数字花园 / 技术记录 / 生活向',
         circle: true,
         location: 'Chengdu, China',
         // organization: '2',
@@ -107,7 +107,7 @@ export default defineThemeConfig({
       profile: {
         avatar: '/images/head/avatar.png',
         name: '一闪一闪亮晶晶',
-        description: '一闪一闪亮晶晶的生活向',
+        description: '一闪一闪亮晶晶的数字花园',
         // circle: true,
         // location: '',
         // organization: '',

@@ -2,7 +2,7 @@
   "name": "resetsix-life",
   "type": "module",
   "version": "1.0.0",
-  "description": "一闪一闪亮晶晶的生活向",
+  "description": "一闪一闪亮晶晶的数字花园",
   "packageManager": "pnpm@9.12.3",
   "author": "一闪一闪亮晶晶 <resetsix223@gmail.com>",
   "license": "MIT",

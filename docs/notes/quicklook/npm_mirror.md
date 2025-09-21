@@ -1,7 +1,7 @@
 ---
 title: npm镜像
 createTime: 2025/03/15 19:58:32
-permalink: /article/unh3a5ug/
+permalink: /quicklook/unh3a5ug/
 tags:
   - Nodejs
   - NPM

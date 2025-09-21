@@ -1,7 +1,7 @@
 ---
 friends: true
 title: 友情链接
-description: 这里展示了两种友链展示方式：1. 友情链接列表(list) - 以统一样式展示所有友链 2. 友情链接分组(groups) - 支持自定义分组，可以按照主题、领域、特点等多种方式对友链进行分类展示 🔗 欢迎前来交换友链！请在 GitHub Issues 提供您的昵称、博客链接、头像链接和简短描述。更多自定义配置项可参考：https://theme-plume.vuejs.press/config/frontmatter/friends/#pagelayout
+# description: 这里展示了两种友链展示方式：1. 友情链接列表(list) - 以统一样式展示所有友链 2. 友情链接分组(groups) - 支持自定义分组，可以按照主题、领域、特点等多种方式对友链进行分类展示 🔗 欢迎前来交换友链！请在 GitHub Issues 提供您的昵称、博客链接、头像链接和简短描述。更多自定义配置项可参考：https://theme-plume.vuejs.press/config/frontmatter/friends/#pagelayout
 permalink: /friends/
 list:
   -

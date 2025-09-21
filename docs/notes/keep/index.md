@@ -1,13 +1,12 @@
 ---
 title: keep
 createTime: 2025/05/11 19:25:17
-permalink: /article/slfbq73f/
-tags:
-  - 健身
-  - 打卡
+permalink: /keep/
 ---
 训练计划：为期一个月的肩部、手臂、后背训练  
 训练周期：2025-04-08 —— 2025-05-05 (一、二、四、五、日为训练日，三和六为休息日)  
 训练状态：全部完成✅
 
+:::details
 <Image src="/images/life/2025-05-11/2025-05-11-01.jpg" />
+:::

@@ -1,7 +1,7 @@
 ---
 title: 自动切换Nodejs版本
 createTime: 2025/03/15 19:56:27
-permalink: /article/j7z98t3n/
+permalink: /quicklook/j7z98t3n/
 tags:
   - Nodejs
   - nvm
