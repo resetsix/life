@@ -76,8 +76,9 @@ export default defineThemeConfig({
        */
       profile: {
         avatar: '/images/head/avatar.png',
-        name: '一闪一闪亮晶晶',
-        description: '数字花园 / 技术记录 / 生活向',
+        name: 'Resetsix',
+        description: '优雅搬砖手 / 首席折腾官 / 业余生活观察家',
+        // description: '数字花园 / 技术记录 / 生活向',
         circle: true,
         location: 'Chengdu, China',
         // layout: 'right',
@@ -109,8 +110,8 @@ export default defineThemeConfig({
        */
       profile: {
         avatar: '/images/head/avatar.png',
-        name: '一闪一闪亮晶晶',
-        description: '一闪一闪亮晶晶的数字花园',
+        name: 'Resetsix',
+        description: 'Graceful Builder / Chief Tinkering Officer / Observer',
         // circle: true,
         // location: '',
         // organization: '',
