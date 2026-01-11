@@ -20,7 +20,12 @@ export const zhNavbar = defineNavbarConfig([
       {
         text: '运动健身',
         icon: 'fluent-emoji-flat:man-running-facing-right',
-        link: '/keep/',
+        link: '/keep/', 
+      },
+      {
+        text: '观影',
+        icon: 'streamline-color:film-roll-1',
+        link: '/movies/', 
       },
       // { text: '旅行见闻 (TODO)', link: '/life/travel/' },
     ],
@@ -39,8 +44,13 @@ export const zhNavbar = defineNavbarConfig([
       //     },
       //   ],
       // },
-      { text: '小记速查', icon: 'fluent-emoji-flat:pencil', link: '/quicklook/' },
-      { text: 'iOS 原生', icon: 'skill-icons:swift', link: '/ios/' },
+      {
+        text: '小记速查',
+        icon: 'fluent-emoji-flat:pencil',
+        link: '/quicklook/',
+      },
+      { text: 'Swift', icon: 'skill-icons:swift', link: '/ios/' },
+      { text: 'Flutter', icon: 'devicon:flutter', link: '/flutter/' },
       { text: 'Zustand', icon: 'devicon:zustand', link: '/zustand/' },
       // {
       //   text: '工具与环境',

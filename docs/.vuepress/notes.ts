@@ -10,8 +10,30 @@ const zhIosNote = defineNoteConfig({
       text: 'Apple 原生开发',
       collapsed: false,
       items: [
-        { text: 'Swift', link: '/ios/swift/' },
-        { text: 'SwiftUI', link: '/ios/swiftui/' },
+        { text: '目录', link: '/ios/' },
+        { text: '参考手册', link: '/ios/docs/' },
+        { text: 'Xcode', link: '/ios/xcode/' },
+        { text: 'Skills', link: '/ios/skills/' },
+        { text: 'SwiftUI 组件指南', link: '/ios/swiftui-components/' },
+        { text: 'SwiftUI 导航指南', link: '/ios/swiftui-navigation/' },
+        { text: 'SwiftUI 修饰符指南', link: '/ios/swiftui-modifier/' },
+        { text: 'FAQ', link: '/ios/faq/' },
+      ],
+    },
+  ],
+});
+
+const zhFlutterNote = defineNoteConfig({
+  dir: 'flutter',
+  link: '/flutter/',
+  sidebar: [
+    {
+      text: 'Flutter 开发',
+      collapsed: false,
+      items: [
+        { text: '目录', link: '/flutter/' },
+        { text: '参考手册', link: '/flutter/docs/' },
+        { text: 'FAQ', link: '/flutter/faq/' },
       ],
     },
   ],
@@ -25,9 +47,13 @@ const zhQuickLookNote = defineNoteConfig({
       text: '小记速查',
       collapsed: false,
       items: [
-        { text: 'NPM 镜像设置', link: '/quicklook/unh3a5ug/' },
-        { text: 'NodeJS 版本自动切换', link: '/quicklook/j7z98t3n/' },
-        { text: 'Cursor 编辑器调整布局', link: '/quicklook/j19svoqk/' },
+        { text: '目录', link: '/quicklook/' },
+        { text: 'Git', link: '/quicklook/80kzn14y/' },
+        { text: 'Npm', link: '/quicklook/unh3a5ug/' },
+        { text: 'Nodejs', link: '/quicklook/j7z98t3n/' },
+        { text: 'MacOS', link: '/quicklook/drbtzl4l/' },
+        { text: 'Cursor', link: '/quicklook/j19svoqk/' },
+        { text: '移除 Figma 图片透明度', link: '/quicklook/v8c4l10g/' },
       ],
     },
   ],
@@ -41,6 +67,16 @@ const zhKeepNote = defineNoteConfig({
       // text: '记录',
       // collapsed: true,
       items: [{ text: '记录', link: '/notes/keep/' }],
+    },
+  ],
+});
+
+const zhMoviesNote = defineNoteConfig({
+  dir: 'movies',
+  link: '/movies/',
+  sidebar: [
+    {
+      items: [{ text: '观影', link: '/notes/movies/' }],
     },
   ],
 });
@@ -201,7 +237,14 @@ const zustandNote = defineNoteConfig({
 export const zhNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zhIosNote, zhKeepNote, zhQuickLookNote, zustandNote],
+  notes: [
+    zhIosNote,
+    zhFlutterNote,
+    zhKeepNote,
+    zhMoviesNote,
+    zhQuickLookNote,
+    zustandNote,
+  ],
 });
 
 /* =================== locale: en-US ======================= */
