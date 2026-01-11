@@ -60,7 +60,7 @@ export default defineUserConfig({
     // lastUpdated: true,
     // lastUpdated: { formatOptions: { forceLocale: true } },
     // contributors: true,
-    changelog: true,
+    changelog: false,
 
     /**
      * 博客
