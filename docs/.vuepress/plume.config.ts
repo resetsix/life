@@ -7,10 +7,7 @@ import { enNotes, zhNotes } from './notes';
  */
 export default defineThemeConfig({
   logo: '/images/head/avatar.png',
-  // logo: 'https://resetsix.netlify.app/head/avatar.png',
-
   appearance: true, // 配置 深色模式
-
   social: [
     { icon: 'github', link: 'https://github.com/resetsix' },
     {
@@ -83,6 +80,7 @@ export default defineThemeConfig({
         description: '数字花园 / 技术记录 / 生活向',
         circle: true,
         location: 'Chengdu, China',
+        // layout: 'right',
         // organization: '2',
       },
 
@@ -93,12 +91,17 @@ export default defineThemeConfig({
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-      // bulletin: {
-      //   layout: 'top-right',
-      //   contentType: 'markdown',
-      //   title: '公告',
-      //   content: '内容',
-      // },
+      bulletin: {
+        id: 'home-location',
+        layout: 'top-right',
+        contentType: 'text',
+        // title: '公告',
+        content: 'Location',
+        lifetime: 'always',
+        enablePage: (page) => {
+          return page.path === '/about/';
+        },
+      },
     },
     '/en/': {
       /**

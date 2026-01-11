@@ -47,6 +47,7 @@ export default defineUserConfig({
 
     markdown: {
       chat: true,
+      timeline: true,
     },
 
     /* 文档仓库配置，用于 editLink */
@@ -57,6 +58,7 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
     // lastUpdated: true,
+    // lastUpdated: { formatOptions: { forceLocale: true } },
     // contributors: true,
     changelog: true,
 
@@ -79,10 +81,10 @@ export default defineUserConfig({
 
     /**
      * 编译缓存，加快编译速度
-     * @see https://theme-plume.vuejs.press/config/basic/#cache
+     * @see https://theme-plume.vuejs.press/config/basic/#
+     * 可选值：false | 'memory' | 'filesystem'
      */
     cache: 'filesystem',
-
     /**
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
@@ -201,7 +203,8 @@ export default defineUserConfig({
       comment: {
         provider: 'Twikoo', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
         comment: true,
-        envId: 'https://prismatic-khapse-f13765.netlify.app/.netlify/functions/twikoo', // 默认域名。 https://netfily.resetsix.cn/.netlify/functions/twikoo 是自定义域名版本，域名有可能会过期
+        envId:
+          'https://prismatic-khapse-f13765.netlify.app/.netlify/functions/twikoo', // 默认域名。 https://netfily.resetsix.cn/.netlify/functions/twikoo 是自定义域名版本，域名有可能会过期
         // repo: '',
         // repoId: '',
         // category: '',
