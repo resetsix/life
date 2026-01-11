@@ -26,7 +26,7 @@ permalink: /watch/movies/
 | 秘密访客                        | 2021-05-03 |      悬疑/惊悚 | ✓    |                                          |
 | 你好，李焕英                    |       2021 |      剧情/喜剧 | ✓    |                                          |
 
-::: timeline card
+<!-- ::: timeline card
 
 - **[名探偵コナン 隻眼の残像](https://movie.douban.com/subject/36851291/)**
   time=2025-08-09
@@ -126,4 +126,4 @@ permalink: /watch/movies/
   time=2021
 
   - **题材**：剧情/喜剧
-    :::
+    ::: -->

@@ -4,5 +4,6 @@ createTime: 2026/01/11 17:09
 permalink: /watch/
 ---
 
-- [🍿](./movies.md)
-- [🍜](./kdrama.md)
+- [书 📚](./books.md)
+- [电影 🍿](./movies.md)
+- [韩剧 🍜](./kdrama.md)
