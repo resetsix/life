@@ -72,11 +72,16 @@ const zhKeepNote = defineNoteConfig({
 });
 
 const zhMoviesNote = defineNoteConfig({
-  dir: 'movies',
-  link: '/movies/',
+  dir: 'watch',
+  link: '/watch/',
   sidebar: [
     {
-      items: [{ text: '观影', link: '/notes/movies/' }],
+      items: [
+        { text: '目录', link: '/watch/' },
+        { text: '书 📚', link: '/watch/book/' },
+        { text: '电影 🍿', link: '/watch/movies/' },
+        { text: '韩剧 🍜', link: '/watch/kdrama/' },
+      ],
     },
   ],
 });

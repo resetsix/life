@@ -18,14 +18,14 @@ export const zhNavbar = defineNavbarConfig([
       // { text: '日常随笔 (TODO)', link: '/life/daily/' },
       // { text: '美食记录 (TODO)', link: '/life/food/' },
       {
-        text: '运动健身',
+        text: '运动',
         icon: 'fluent-emoji-flat:man-running-facing-right',
         link: '/keep/', 
       },
       {
-        text: '观影',
-        icon: 'streamline-color:film-roll-1',
-        link: '/movies/', 
+        text: '品鉴',
+        icon: 'streamline-ultimate-color:smiley-smile-1',
+        link: '/watch/', 
       },
       // { text: '旅行见闻 (TODO)', link: '/life/travel/' },
     ],
