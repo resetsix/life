@@ -1,7 +1,7 @@
 ---
 title: 书籍 📚
 createTime: 2026/01/11 17:14:57
-permalink: /watch/book/
+permalink: /watch/books/
 ---
 
 <!-- 成长类：个人成长、认知、方法论、自我驱动

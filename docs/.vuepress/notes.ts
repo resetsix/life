@@ -78,7 +78,7 @@ const zhMoviesNote = defineNoteConfig({
     {
       items: [
         { text: '目录', link: '/watch/' },
-        { text: '书籍 📚', link: '/watch/book/' },
+        { text: '书籍 📚', link: '/watch/books/' },
         { text: '电影 🍿', link: '/watch/movies/' },
         { text: '韩剧 🍜', link: '/watch/kdrama/' },
       ],
