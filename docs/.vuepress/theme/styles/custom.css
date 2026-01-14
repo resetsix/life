@@ -27,7 +27,7 @@
 }
 
 /** 深色模式 */
-[data-theme="dark"] {
+[data-theme='dark'] {
   /*
   --vp-c-brand-1: #8cccd5;
   --vp-c-brand-2: #6aa1b7;
@@ -47,4 +47,42 @@
   --vp-c-text-2: rgba(235, 235, 245, 0.6);
   --vp-c-text-3: rgba(235, 235, 245, 0.38);
   */
+}
+
+@media (max-width: 768px) {
+  .vp-bulletin {
+    top: 750px !important;
+    bottom: auto !important;
+    /* bottom: 80px !important; */
+    right: 24px !important;
+    left: auto !important;
+    transform: none !important;
+
+    width: 280px !important;
+    height: 150px !important;
+    max-width: 90vw;
+
+    opacity: 0.95;
+  }
+
+  .plume-home-banner .content,
+  .vp-blog-hero .content {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .plume-home-banner h1,
+  .vp-blog-hero h1 {
+    color: #fff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .plume-home-banner .description,
+  .vp-blog-hero .description {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
 }
